@@ -1,0 +1,46 @@
+#quote {
+
+    height: 100vh;
+}
+
+#quote .container {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+
+h1 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+
+}
+
+p {
+    font-size: 2.1875rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-block: 1.25rem;
+
+}
+
+button {
+    font-size: .8125rem;
+    padding: 30px 90px;
+    background-color: blue;
+    color: white;
+    text-transform: capitalize;
+    border: 1px solid black;
+    margin-block: 3.125rem;
+    transition: background-color 0.4s;
+}
+
+button:hover{
+
+    background-color: green;
+}
+
+
