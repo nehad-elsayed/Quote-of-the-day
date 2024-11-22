@@ -38,9 +38,7 @@ button {
     transition: background-color 0.4s;
 }
 
-button:hover{
+button:hover {
 
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0.94);
 }
-
-

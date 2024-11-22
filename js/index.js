@@ -29,7 +29,7 @@ function displayQuotes() {
 
   document.getElementById("text").innerHTML = `${authors[randomNum].quoteText}`;
   document.getElementById("name").innerHTML = ` ${authors[randomNum].name} `;
-  currentIndex;
+  var currentIndex;
   do {
     currentIndex = randomNum - 1;
     currentIndex++;
